@@ -47,7 +47,7 @@ namespace DeeperAI
             }
         }
 
-        public float DoFeed(NeuralNetwork net) //Test the network and return fitness
+        private float DoFeed(NeuralNetwork net) //Test the network and return fitness
         {
             DoReset();
             bool flag = false;
@@ -59,7 +59,7 @@ namespace DeeperAI
             return depth;
         }
 
-        public void DoReset()
+        private void DoReset()
         {
             ModEngineVariables.Submarine.transform.position = new Vector2(215f, -224.8f);
             ModEngineVariables.AIDM.NetworkcurrentWaterType = 1;

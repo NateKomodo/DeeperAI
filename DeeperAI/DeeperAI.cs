@@ -14,7 +14,7 @@ namespace DeeperAI
         //Declare events and variables
         public ModEngineEvents events = new ModEngineEvents();
 
-        public Manager manager = new Manager();
+        public Manager manager;
 
         public string Name => "DeeperAI";
 
@@ -46,7 +46,7 @@ namespace DeeperAI
         {
             if (events.KeyPressed(KeyCode.Home)) //Home pressed, start network stuffs
             {
-                manager.
+                manager = new Manager();
             }
         }
     }
