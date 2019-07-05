@@ -49,19 +49,19 @@ namespace DeeperAI
 
         public float DoFeed(NeuralNetwork net) //Test the network and return fitness
         {
+            DoReset();
             bool flag = false;
             while (!flag)
             {
                 //TODO net.FeedForward with the correct values and do action, with timeout if no change, and some stopping conidtion
             }
             float depth = ModEngineVariables.Substats.currentMaxDepthTraveled; //Current max depth is based off progress in the biome, which is determined by submarine.y
-            DoReset();
             return depth;
         }
 
         public void DoReset()
         {
-            ModEngineVariables.Submarine.transform.position = new Vector2(191f, -5.29f);
+            ModEngineVariables.Submarine.transform.position = new Vector2(215f, -224.8f);
             ModEngineVariables.AIDM.NetworkcurrentWaterType = 1;
         }
     }
