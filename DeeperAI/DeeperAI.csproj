@@ -54,6 +54,15 @@
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>E:\Program Files (x86)\Steam\steamapps\common\WeNeedtoGoDeeper\WeNeedToGoDeeper_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:\Program Files (x86)\Steam\steamapps\common\WeNeedtoGoDeeper\WeNeedToGoDeeper_Data\Managed\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:\Program Files (x86)\Steam\steamapps\common\WeNeedtoGoDeeper\WeNeedToGoDeeper_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:\Program Files (x86)\Steam\steamapps\common\WeNeedtoGoDeeper\WeNeedToGoDeeper_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeeperAI.cs" />
